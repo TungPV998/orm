@@ -1,0 +1,15 @@
+{
+  "type": "library",
+    "autoload":  {
+      "psr-4":{
+        "AHT\\": ""
+      },
+      "psr-0": {"": "src/"}
+    },
+    "require": {
+    "doctrine/orm": "^2.7",
+      "symfony/yaml": "2.*",
+    "cr/hashcli": "dev-master",
+    "irap/autoloader": "^2.0"
+  }
+}
